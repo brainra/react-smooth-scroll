@@ -7,7 +7,6 @@
     "start": "webpack-dev-server --watch -d --progress --colors"
   },
   "main": "build/react-smooth-scroll.min.js",
-  "author": "antoninlanglade",
   "license": "MIT",
   "directories": {
     "example": "example"
@@ -33,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antoninlanglade/react-smooth-scroll.git"
+    "url": "git+https://github.com/C3LX/react-smooth-scroll.git"
   },
   "keywords": [
     "React",
@@ -41,7 +40,7 @@
     "Scroll"
   ],
   "bugs": {
-    "url": "https://github.com/antoninlanglade/react-smooth-scroll/issues"
+    "url": "https://github.com/C3LX/react-smooth-scroll/issues"
   },
-  "homepage": "https://github.com/antoninlanglade/react-smooth-scroll#readme"
+  "homepage": "https://github.com/C3LX/react-smooth-scroll/react-smooth-scroll#readme"
 }
