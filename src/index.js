@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import RAF from 'raf';
+import RAF from '@c3lx/raf';
 import VirtualScroll from 'virtual-scroll';
 import ReactDOM from 'react-dom';
 
