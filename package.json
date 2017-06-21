@@ -1,19 +1,16 @@
 {
-  "name": "react-smooth-scroll",
-  "description": "<h1 align=\"center\">Lib Name</h1> <h3 align=\"center\">Lib Description</h3>",
-  "version": "0.0.11",
+  "name": "@c3lx/react-smooth-scroll",
+  "version": "0.0.10",
   "scripts": {
     "build": "NODE_ENV=production webpack -p --config ./webpack.production.config.js --progress --colors",
     "start": "webpack-dev-server --watch -d --progress --colors"
   },
   "main": "build/react-smooth-scroll.min.js",
+  "author": "C3LX",
   "license": "MIT",
-  "directories": {
-    "example": "example"
-  },
   "dependencies": {
     "lodash": "^4.17.2",
-    "raf": "github:pqml/raf",
+    "raf": "^3.3.2",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "virtual-scroll": "^1.1.1"
@@ -34,13 +31,8 @@
     "type": "git",
     "url": "git+https://github.com/C3LX/react-smooth-scroll.git"
   },
-  "keywords": [
-    "React",
-    "Smooth",
-    "Scroll"
-  ],
   "bugs": {
     "url": "https://github.com/C3LX/react-smooth-scroll/issues"
   },
-  "homepage": "https://github.com/C3LX/react-smooth-scroll/react-smooth-scroll#readme"
+  "homepage": "https://github.com/C3LX/react-smooth-scroll#readme"
 }
