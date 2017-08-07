@@ -1,15 +1,15 @@
 {
-  "name": "@c3lx/react-smooth-scroll",
+  "name": "@brainra/react-smooth-scroll",
   "version": "0.0.13",
   "scripts": {
     "build": "NODE_ENV=production webpack -p --config ./webpack.production.config.js --progress --colors",
     "start": "webpack-dev-server --watch -d --progress --colors"
   },
   "main": "build/react-smooth-scroll.min.js",
-  "author": "C3LX",
+  "author": "brainra",
   "license": "MIT",
   "dependencies": {
-    "@c3lx/raf": "^0.1.0",
+    "raf": "github:C3LX/raf",
     "lodash": "^4.17.2",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
@@ -30,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/C3LX/react-smooth-scroll.git"
+    "url": "git+https://github.com/brainra/react-smooth-scroll.git"
   },
   "bugs": {
-    "url": "https://github.com/C3LX/react-smooth-scroll/issues"
+    "url": "https://github.com/brainra/react-smooth-scroll/issues"
   },
-  "homepage": "https://github.com/C3LX/react-smooth-scroll#readme"
+  "homepage": "https://github.com/brainra/react-smooth-scroll#readme"
 }
