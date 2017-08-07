@@ -103,7 +103,7 @@ class SmoothScrollManager {
             if (element.paused) return true;
             element.update && element.update(element.currentY, element.targetY, Math.abs(element.currentY) / (element.sectionHeight - window.innerHeight));
             element.currentY += (element.targetY - element.currentY) * (element.ease ? element.ease : EASE);
-            var t = 'translateY(' + element.currentY + 'px) translateZ(0)';
+            var t = 'translateY(' + element.currentY.toFixed(2) + 'px) translateZ(0)';
             var s = element.el.style;
             s["transform"] = t;
             s["webkitTransform"] = t;
