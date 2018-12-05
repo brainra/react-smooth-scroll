@@ -1,6 +1,6 @@
 {
   "name": "@brainra/react-smooth-scroll",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "scripts": {
     "build": "NODE_ENV=production webpack -p --config ./webpack.production.config.js --progress --colors",
     "start": "webpack-dev-server --watch -d --progress --colors"
