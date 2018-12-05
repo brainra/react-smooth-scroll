@@ -15,6 +15,9 @@ class SmoothScrollManager {
     }
 
     add(element, ease, update, yStart) {
+        if (typeof window === 'undefined') {
+            return false;
+        }
         if (this.findElement(element)) {
             return false;
         }
