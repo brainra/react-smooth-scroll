@@ -9,11 +9,11 @@
   "author": "brainra",
   "license": "MIT",
   "dependencies": {
+    "@brainra/virtual-scroll": "github:brainra/virtual-scroll",
     "raf": "github:C3LX/raf",
     "lodash": "^4.17.2",
     "react": "^15.4.1",
-    "react-dom": "^15.4.1",
-    "virtual-scroll": "^1.1.1"
+    "react-dom": "^15.4.1"
   },
   "description": "",
   "devDependencies": {
