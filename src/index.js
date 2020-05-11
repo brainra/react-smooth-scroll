@@ -82,8 +82,10 @@ class SmoothScrollManager {
 
     resetPosition(element, position) {
         var object = this.findElement(element);
-        object.currentY = position ? position : 0;
-        object.targetY = position ? position : 0;
+        if (object) {
+            object.currentY = position ? position : 0;
+            object.targetY = position ? position : 0;
+        }
     }
 
     onScroll(element, e) {
